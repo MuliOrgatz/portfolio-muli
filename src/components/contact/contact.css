@@ -1,0 +1,135 @@
+.contact-section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.contact-section .info {
+  width: 100%;
+  background: #fff;
+}
+
+.contact-section .row {
+  text-align: start;
+}
+
+.contact-section .info .email,
+.contact-section .info .phone {
+  margin-top: 40px;
+}
+
+.contact-section .info i {
+  font-size: 20px;
+  color: #0563bb;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #eef7ff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+
+.contact-section .info i:hover {
+  background: #0563bb;
+  color: #fff;
+}
+
+.contact-section .info h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #45505b;
+}
+
+.contact-section .info p {
+  padding: 0 0 0 60px;
+  margin-bottom: 0;
+  font-size: 14px;
+  color: #728394;
+}
+
+.contact-section .contact-form {
+  width: 100%;
+  background: #fff;
+}
+
+.contact-section .contact-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact-section .contact-form input {
+  height: 44px;
+}
+
+.contact-section .contact-form input,
+.contact-section .contact-form textarea {
+  border-radius: 4px;
+  box-shadow: none;
+  font-size: 14px;
+}
+
+.contact-section .contact-form .validate {
+    display: flex;
+    color: red;
+    font-weight: 400;
+    font-size: 13px;
+}
+
+.contact-section .contact-form .form-group {
+  padding-bottom: 8px;
+}
+
+.contact-section .contact-form textarea {
+  padding: 10px 12px;
+}
+
+.contact-section .contact-form button[type="submit"] {
+  background: #0563bb;
+  border: 0;
+  padding: 10px 35px;
+  color: #fff;
+  transition: 0.4s;
+  border-radius: 50px;
+}
+
+.contact-section .contact-form button[type="submit"]:hover {
+  background: #0678e3;
+}
+
+.contact-section .contact-form button:focus {
+    outline: none; 
+}
+
+.contact-section .contact-form .loading {
+  display: none;
+  background: #fff;
+  text-align: center;
+  padding: 15px;
+}
+
+.contact-section .contact-form .error-message {
+  display: none;
+  color: #fff;
+  background: #ed3c0d;
+  text-align: left;
+  padding: 15px;
+  font-weight: 600;
+}
+
+.contact-section .contact-form .message {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  height: 106px;
+}
+
+.contact-section .contact-form .sent-message {
+  display: none;
+  color: #fff;
+  background: #18d26e;
+  text-align: center;
+  padding: 15px;
+  font-weight: 600;
+}
